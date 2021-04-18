@@ -1,0 +1,45 @@
+.indicator {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    user-select: none;
+}
+.Skil-area {
+    margin: 40px 0;
+    padding: 70px 0;
+    background: #f1f0ed;
+    width:100%;
+    position:relative;
+}
+.skil-content {
+    margin-top: 50px;
+}
+.skil-content h3 {
+    color: #ff9800;
+}
+.skil-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.skil-content p {
+    margin: 20px 0;
+    color: gray;
+}
+.skil-content h1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #ff9800;
+    font-size: 80px;
+    font-weight: 500;
+}
+.skil-content h6 {
+    font-weight: 550;
+}
+.skil-content img {
+    border-radius: 10px;
+}

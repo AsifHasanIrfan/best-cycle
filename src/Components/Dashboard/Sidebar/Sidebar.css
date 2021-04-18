@@ -1,0 +1,42 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #063146;
+    transition: all .5s ease;
+  }
+  .sidebar header {
+    font-size: 22px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #063146;
+  }
+  .sidebar ul a{
+    display: block;
+    height: 100%;
+    line-height: 45px;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+    transition: .4s;
+    text-decoration: none;
+  }
+  .sidebar ul {
+    padding-left: 15px;
+  }
+  ul li:hover a{
+    padding-left: 10px;
+  }
+  ul li {
+    list-style: none;
+  }
+  .sidebar ul a i{
+    margin-right: 16px;
+  }
+  .logout-btn {
+    margin-left: 20px;
+    padding: 8px 20px;
+    background: #3498DB;
+    border-radius: 5px;
+    color: #fff;
+  }

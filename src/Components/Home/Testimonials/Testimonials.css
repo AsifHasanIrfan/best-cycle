@@ -1,0 +1,47 @@
+.testimonials h1{
+    text-align: center;
+    font-weight: 500;
+    color: #ff9800;
+    text-transform: uppercase;
+}
+.testimonials p{
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.testimonials h1::after{
+    content: '';
+    background: #ff9800;
+    display: block;
+    height: 3px;
+    width: 180px;
+    margin: 10px auto 5px;
+}
+.profile {
+    padding: 20px 10px 10px;
+    background-color: #efefef;
+}
+.profile img {
+    top: -60px;
+    left: calc(50% -50%);
+    border: 5px solid white
+}
+.user {
+    width: 120px;
+    height: 118px;
+    border-radius: 50%;
+}
+.profile h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+blockquote {
+    font-size: 15px;
+    line-height: 25px;
+}
+.profile:hover {
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.3s;
+}

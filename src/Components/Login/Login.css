@@ -1,0 +1,12 @@
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-btn {
+    padding: 10px 20px;
+    background: #ff9800;
+    color: #fff;
+    border-radius: 5px;
+}

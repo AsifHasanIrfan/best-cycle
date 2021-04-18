@@ -1,0 +1,16 @@
+.work-img {
+    padding: 10px;
+    border-radius: 20px;
+}
+.work-details {
+    padding-left: 25px;
+}
+.work-details h3{
+    text-transform: uppercase;
+    color: #ff9800;
+}
+.work-details h2{
+    text-transform: uppercase;
+    line-height: 46px;
+    font-weight: 550;
+}
