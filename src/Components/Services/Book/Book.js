@@ -12,7 +12,7 @@ const Book = ({service}) => {
         status: 'Pending',
         orderTime: new Date()
         }
-        fetch('http://localhost:5000/addBook', {
+        fetch('https://lit-earth-86489.herokuapp.com/addBook', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

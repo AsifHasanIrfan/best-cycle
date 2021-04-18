@@ -7,13 +7,13 @@ const OrderList = () => {
     const [Order, setOrder] = useState({});
 
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://lit-earth-86489.herokuapp.com/orders')
         .then(response => response.json())
         .then(data => setOrders(data))
     }, [])
 
     const loadOrder = (id) => {
-        fetch(`http://localhost:5000/order/${id}`)
+        fetch(`https://lit-earth-86489.herokuapp.com/order/${id}`)
         .then(response => response.json())
         .then(data => {
             setOrder(data)
@@ -22,7 +22,7 @@ const OrderList = () => {
 
     const updateOrder = (id, status) => {
         const order = {id, status}
-        fetch(`http://localhost:5000/update/${id}`, {
+        fetch(`https://lit-earth-86489.herokuapp.com/update/${id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
