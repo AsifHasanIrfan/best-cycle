@@ -4,7 +4,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/AsifHasanIrfan/apple-cart/blob/main/src/images/apple-cart.PNG"></img>
+    <img src="https://github.com/AsifHasanIrfan/best-cycle/blob/main/src/images/best-cycle.PNG"></img>
   </kbd>
 </p>
 
